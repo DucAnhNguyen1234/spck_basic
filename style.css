@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.nav {
+    padding: 16px 0px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.bar {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 16px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 48px;
+}
+
+.gioi-thieu {
+    width: 1000px;
+}
+
+.nav div a {
+    color: white;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.p-gioi-thieu {
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 20px;
+}
+
+.gioi-thieu-chung {
+    padding-top: 30px;
+}
+.css-chung {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 25px;
+}
+.css-anh {
+    width: 512px;
+    height: 250px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.css-chu {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 21px;
+}
